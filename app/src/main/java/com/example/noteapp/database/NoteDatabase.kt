@@ -9,7 +9,7 @@ import com.example.noteapp.feature_note.domain.models.NoteModel
     entities = [NoteModel::class],
     version = 1
 )
-abstract class NotesDatabase: RoomDatabase() {
+abstract class NoteDatabase: RoomDatabase() {
 
     abstract val noteDao: NoteDao
 
