@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id("dagger.hilt.android.plugin")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -19,7 +20,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField "boolean", "isDebugLoggingOn", "true"
+        }
         release {
+            buildConfigField "boolean", "isDebugLoggingOn", "false"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

@@ -111,7 +111,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dimen_add_button_bottom_margin"
         android:contentDescription="@null"
+        android:src="@drawable/ic_save"
+        app:tint="@color/color_white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/endGuideline"
-        app:srcCompact="@drawable/ic_add" />
+        app:layout_constraintEnd_toStartOf="@id/endGuideline" />
 </androidx.constraintlayout.widget.ConstraintLayout>

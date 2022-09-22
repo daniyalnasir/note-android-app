@@ -13,7 +13,13 @@
 
         <action
             android:id="@+id/action_viewNotesFragment_to_addEditNoteFragment"
-            app:destination="@id/addEditNoteFragment" />
+            app:destination="@id/addEditNoteFragment">
+
+            <argument
+                android:name="noteID"
+                android:defaultValue="-1"
+                app:argType="integer" />
+        </action>
 
     </fragment>
 
@@ -21,5 +27,10 @@
         android:id="@+id/addEditNoteFragment"
         android:name="com.example.noteapp.feature_note.presentation.add_edit_note.AddEditNoteFragment"
         android:label="fragment_add_edit_note"
-        tools:layout="@layout/fragment_add_edit_note" />
+        tools:layout="@layout/fragment_add_edit_note">
+        <argument
+            android:name="noteID"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
 </navigation>

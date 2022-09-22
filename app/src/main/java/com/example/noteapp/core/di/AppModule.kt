@@ -1,8 +1,8 @@
-package com.example.noteapp.di
+package com.example.noteapp.core.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.noteapp.database.NoteDatabase
+import com.example.noteapp.core.database.NoteDatabase
 import com.example.noteapp.feature_note.data.repositories_impl.NoteRepositoryImpl
 import com.example.noteapp.feature_note.domain.repositories.NoteRepository
 import com.example.noteapp.feature_note.domain.use_cases.*
