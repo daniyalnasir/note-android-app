@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">NoteApp</string>
-
-    <string name="string_title">Title</string>
-    <string name="string_content">Content</string>
 </resources>
