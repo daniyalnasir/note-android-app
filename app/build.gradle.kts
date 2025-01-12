@@ -46,6 +46,7 @@ android {
 dependencies {
     implementation(project(":dependencyInjection"))
     implementation(project(":database"))
+    implementation(project(":navigation"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

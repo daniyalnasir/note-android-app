@@ -23,3 +23,5 @@ rootProject.name = "NoteApp"
 include(":app")
 include(":dependencyInjection")
 include(":database")
+include(":note")
+include(":navigation")
