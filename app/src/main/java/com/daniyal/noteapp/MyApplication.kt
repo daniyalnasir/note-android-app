@@ -1,6 +1,7 @@
 package com.daniyal.noteapp
 
 import android.app.Application
+import com.daniyal.database.noteDatabaseModule
 import com.daniyal.dependencyinjection.initKoin
 
 class MyApplication : Application() {
@@ -9,7 +10,9 @@ class MyApplication : Application() {
         super.onCreate()
         initKoin(
             context = this,
-            additionalModules = emptyList()
+            additionalModules = listOf(
+                noteDatabaseModule
+            )
         )
     }
 }
