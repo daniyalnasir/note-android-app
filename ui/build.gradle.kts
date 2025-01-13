@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.daniyal.note"
+    namespace = "com.daniyal.ui"
     compileSdk = 34
 
     defaultConfig {
@@ -31,14 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
-        compose = true
-    }
 }
 
 dependencies {
-    implementation(project(":ui"))
-
     implementation(libs.androidx.core.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

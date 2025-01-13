@@ -1,4 +1,4 @@
-package com.daniyal.noteapp.ui.theme
+package com.daniyal.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -38,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":ui"))
     implementation(project(":note"))
 
     implementation(libs.androidx.core.ktx)

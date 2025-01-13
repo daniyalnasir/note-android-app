@@ -1,6 +1,6 @@
 package com.daniyal.navigation
 
-import com.daniyal.navigation.utils.AppConstants.EMPTY_STRING
+import com.daniyal.ui.utils.AppConstants.EMPTY_STRING
 import kotlinx.serialization.Serializable
 
 @Serializable

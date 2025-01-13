@@ -44,6 +44,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":ui"))
     implementation(project(":dependencyInjection"))
     implementation(project(":database"))
     implementation(project(":navigation"))

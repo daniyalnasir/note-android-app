@@ -1,13 +1,12 @@
 package com.daniyal.note
 
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import com.daniyal.ui.views.TextView
 
 @Composable
 fun CreateNote() {
-
-    Text(
-        text = "Hello World"
+    TextView(
+        title = "Hello World"
     )
 
 }

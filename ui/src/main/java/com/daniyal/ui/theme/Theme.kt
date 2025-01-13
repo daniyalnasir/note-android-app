@@ -1,4 +1,4 @@
-package com.daniyal.noteapp.ui.theme
+package com.daniyal.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
